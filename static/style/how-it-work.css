@@ -1,0 +1,135 @@
+.how-it-work {
+    padding-top: 169px;
+    padding-bottom: 51px;
+
+}
+
+.how-it-work-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.how-it-work-title {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 157%;
+    padding-bottom: -3px;
+    margin: 0;
+    color: #424242;
+}
+
+.how-it-work-subtitle {
+    font-size: 50px;
+    font-family: 'Georgia';
+    line-height: 157%;
+    font-weight: 700;
+    /* min-width: 584px; */
+    padding-right: 136px;
+    margin: 0;
+    color: #01996D;
+}
+.how-it-work-content {
+    padding-top: 58px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 157%;
+    
+}
+@media (max-width: 1383px) {
+    .how-it-work-header-hed>h3{
+        padding-right: 50px;
+        font-size: 40px;
+    }
+    .how-it-work {
+        padding-top: 100px;
+    }
+    .how-it-work-subtitle {
+        font-size: 40px;
+        line-height: 127%;
+        font-weight: 600;
+        max-width: 584px;
+        padding-right: 100px;
+    }
+
+}
+
+@media (max-width: 1078px) {
+    .how-it-work-header-hed>h3{
+        padding-right: 30px;
+        font-size: 35px;
+    }
+    .how-it-work-header-hed>h2{
+        font-size: 22px;
+    }
+    .how-it-work-content {
+        padding-top: 50px;
+        font-size: 18px;
+        line-height: 130%;
+        
+    }
+    .how-it-work-subtitle {
+        font-size: 35px;
+        line-height: 107%;
+        font-weight: 600;
+        padding-right: 70px;
+    }
+
+}
+
+@media (max-width: 1011px) {
+    .how-it-work-header{
+        display: flex;
+        flex-direction: column;
+    }
+    .how-it-work {
+        padding-top: 50px;
+    }
+    .how-it-work-subtitle>h3 {
+        max-width: 1011px;
+        padding-right: 0;
+    }
+
+}
+
+/* @media (max-width: 1011px) {
+    .how-it-work-header{
+        display: flex;
+        flex-direction: column;
+    }
+
+} */
+@media (max-width: 600px) {
+    .how-it-work {
+        padding-top: 10px;
+    }
+    .how-it-work-subtitle {
+        font-size: 35px;
+        /* line-height: 107%; */
+        font-weight: 600;
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 423px) {
+    .how-it-work-header-hed {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 401px) {
+    .how-it-work-header-hed {
+        margin-top: 70px;
+    }
+
+}
+@media (max-width: 305px) {
+    .how-it-work-header-hed {
+        margin-top: 0px;
+    }
+
+}
